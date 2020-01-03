@@ -10,7 +10,6 @@
 		E49534ED23BEAF7000C881C6 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49534EC23BEAF7000C881C6 /* Fetcher.swift */; };
 		E49534EF23BEAFA300C881C6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49534EE23BEAFA300C881C6 /* Model.swift */; };
 		E4C5BA0723BF8B0800E91D97 /* License.md in Resources */ = {isa = PBXBuildFile; fileRef = E4C5BA0423BF8B0800E91D97 /* License.md */; };
-		E4C5BA0823BF8B0800E91D97 /* Python in Resources */ = {isa = PBXBuildFile; fileRef = E4C5BA0523BF8B0800E91D97 /* Python */; };
 		E4C5BA0923BF8B0800E91D97 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E4C5BA0623BF8B0800E91D97 /* README.md */; };
 		E4CCACA523BE9F80004DFC54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCACA423BE9F80004DFC54 /* AppDelegate.swift */; };
 		E4CCACA723BE9F80004DFC54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCACA623BE9F80004DFC54 /* SceneDelegate.swift */; };
@@ -19,6 +18,8 @@
 		E4CCACAE23BE9F84004DFC54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CCACAD23BE9F84004DFC54 /* Preview Assets.xcassets */; };
 		E4CCACB123BE9F84004DFC54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CCACAF23BE9F84004DFC54 /* LaunchScreen.storyboard */; };
 		E4CE753723BF8D2B00E94134 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E4CE753623BF8D2B00E94134 /* .gitignore */; };
+		E4CE753B23BF8EBE00E94134 /* ID.py in Resources */ = {isa = PBXBuildFile; fileRef = E4CE753923BF8EBE00E94134 /* ID.py */; };
+		E4CE753C23BF8EBE00E94134 /* CleanUp.py in Resources */ = {isa = PBXBuildFile; fileRef = E4CE753A23BF8EBE00E94134 /* CleanUp.py */; };
 		E4D1194923BF75C000FD488B /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D1194823BF75C000FD488B /* DetailsView.swift */; };
 		E4D4A8FC23BEC0370039E7FC /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D4A8FB23BEC0370039E7FC /* WebView.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +28,6 @@
 		E49534EC23BEAF7000C881C6 /* Fetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
 		E49534EE23BEAFA300C881C6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E4C5BA0423BF8B0800E91D97 /* License.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
-		E4C5BA0523BF8B0800E91D97 /* Python */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Python; sourceTree = "<group>"; };
 		E4C5BA0623BF8B0800E91D97 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E4CCACA123BE9F80004DFC54 /* TestFlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFlights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CCACA423BE9F80004DFC54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +38,8 @@
 		E4CCACB023BE9F84004DFC54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4CCACB223BE9F84004DFC54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4CE753623BF8D2B00E94134 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E4CE753923BF8EBE00E94134 /* ID.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ID.py; sourceTree = "<group>"; };
+		E4CE753A23BF8EBE00E94134 /* CleanUp.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CleanUp.py; sourceTree = "<group>"; };
 		E4D1194823BF75C000FD488B /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		E4D4A8FB23BEC0370039E7FC /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,9 +61,9 @@
 				E4CCACA323BE9F80004DFC54 /* TestFlights */,
 				E4CCACA223BE9F80004DFC54 /* Products */,
 				E4C5BA0423BF8B0800E91D97 /* License.md */,
-				E4C5BA0523BF8B0800E91D97 /* Python */,
 				E4C5BA0623BF8B0800E91D97 /* README.md */,
 				E4CE753623BF8D2B00E94134 /* .gitignore */,
+				E4CE753823BF8EBE00E94134 /* Python */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +99,15 @@
 				E4CCACAD23BE9F84004DFC54 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4CE753823BF8EBE00E94134 /* Python */ = {
+			isa = PBXGroup;
+			children = (
+				E4CE753923BF8EBE00E94134 /* ID.py */,
+				E4CE753A23BF8EBE00E94134 /* CleanUp.py */,
+			);
+			path = Python;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,12 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C5BA0923BF8B0800E91D97 /* README.md in Resources */,
+				E4CE753C23BF8EBE00E94134 /* CleanUp.py in Resources */,
 				E4CE753723BF8D2B00E94134 /* .gitignore in Resources */,
-				E4C5BA0823BF8B0800E91D97 /* Python in Resources */,
 				E4C5BA0723BF8B0800E91D97 /* License.md in Resources */,
 				E4CCACB123BE9F84004DFC54 /* LaunchScreen.storyboard in Resources */,
 				E4CCACAE23BE9F84004DFC54 /* Preview Assets.xcassets in Resources */,
 				E4CCACAB23BE9F84004DFC54 /* Assets.xcassets in Resources */,
+				E4CE753B23BF8EBE00E94134 /* ID.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
